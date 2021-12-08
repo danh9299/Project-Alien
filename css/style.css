@@ -1,26 +1,28 @@
-body{
-    padding: 0;
-    margin:0px;
-    background-image: url("../img/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg");
-    background-size: 100%;
-    background-position-x: left;
-    background-position-y:top ;
-    background-repeat:no-repeat;
+/*css for all */
+body {
+  padding: 0;
+  margin: 0px;
+  background-image: url("../img/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg");
+  background-size: 100%;
+  background-position-x: left;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+/* css for Index.html */
+.header-alien {
+  height: 200px;
+  border: none;
+  border-radius: 1%;
+  background-color: white;
 }
 
-.header-alien{
-    height:200px;
-    border:none;
-    border-radius: 1%;
-    background-color:white;
-}
-
-.nav-head{
-    background-color:rgb(28, 211, 83);
+.nav-head {
+  background-color: rgb(28, 211, 83);
 }
 
 
-.result-img{
-    width:50%;
-height: 50%;
+/*css for default.html*/
+.result-img {
+  width: 50%;
+  height: 50%;
 }
