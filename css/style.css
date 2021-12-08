@@ -1,3 +1,11 @@
+/*
+Nguyễn Duy Anh
+MSV: 205 1060 385
+Nền tảng phát triển Web
+Giảng viên: Kiều Tuấn Dũng
+*/
+
+
 /*css for all */
 body {
   padding: 0;
@@ -20,9 +28,8 @@ body {
   background-color: rgb(28, 211, 83);
 }
 
-
 /*css for default.html*/
-.result-img {
+#result-img {
   width: 50%;
   height: 50%;
 }

@@ -34,13 +34,13 @@
           <div class="quest">
             <h2>Do you talk to Animals:</h2>
 
-            <select class="quest-ans">
+            <select id="quest-ans1">
               <!--answer 1-1-->
-              <option selected>I only speak with Human!</option>
+              <option selected value="1">I only speak with Human!</option>
               <!--answer 1-2-->
-              <option>Yes I do! But they don't understand me</option>
+              <option value="2">Yes I do! But they don't understand me</option>
               <!--answer 1-3-->
-              <option>
+              <option value="3">
                 I can not live without making conversation with them!
               </option>
             </select>
@@ -49,35 +49,40 @@
           <!--Quest 2-->
           <div class="quest">
             <h2>Do you eat:</h2>
-            <select class="quest-ans">
+            <select id="quest-ans2">
               <!--answer 2-1-->
-              <option selected>I only breathe to live!</option>
+              <option selected value="1">I only breathe to live!</option>
               <!--answer 2-2-->
-              <option>Without food I can die!</option>
+              <option value="2">Without food I can die!</option>
               <!--answer 2-3-->
-              <option>I break my body parts and eat them!</option>
+              <option value="3">I break my body parts and eat them!</option>
             </select>
           </div>
 
           <!--Quest 3-->
           <div class="quest mb-3">
             <h2>How do you feel about the movie wall-e:</h2>
-            <select class="quest-ans">
+            <select id="quest-ans3">
               <!--answer 3-1-->
-              <option selected>Wall-e is my favorite film!</option>
+              <option selected value="1">Wall-e is my favorite film!</option>
               <!--answer 3-2-->
-              <option>The movie makes we want to go visiting the Earth!</option>
+              <option value="2">
+                The movie makes we want to go visiting the Earth!
+              </option>
               <!--answer 3-3-->
-              <option>EVE should love me instead of Wall E!</option>
+              <option value="3">EVE should love me instead of Wall E!</option>
             </select>
           </div>
-          <button type="button">Determine</button>
+          <button type="button" id="determine">Determine</button>
         </div>
 
         <!-- Col 2 - The RIGHT SIDE-->
         <div class="col-6">
           <h1 style="color: blue; font-size: 25px">Result</h1>
-          <img class="result-img" src="img/not.png" />
+          <h1 id="final-result" style="color: red; font-size: 20px">
+            You are:
+          </h1>
+          <img id="result-img" src="img/not.png" />
         </div>
       </div>
     </section>
